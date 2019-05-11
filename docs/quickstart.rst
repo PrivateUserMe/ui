@@ -36,7 +36,7 @@ Coding "Hello, World"
 Open a new file `index.php` and enter the following code::
 
     <?php                                    // 1
-    require 'vendor/autoload.php';           // 2
+    require '../vendor/autoload.php';         // 2
 
     $app = new \atk4\ui\App('My First App'); // 3
     $app->initLayout('Centered');            // 4
